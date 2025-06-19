@@ -1,0 +1,34 @@
+01..Big O notation describes the efficiency of an algorithm in terms of how it scales with input size (n).
+
+It helps to Predict performance for large datasets.
+
+Choose the most efficient algorithm for a task.
+
+Notation	      Meaning	             Example
+
+O(1)	          Constant time	         Accessing array element by index
+O(n)	          Linear time	         Linear search
+O(log n)	      Logarithmic time	     Binary search
+O(n²)	          Quadratic time	     Nested loops
+
+
+Best, Average, and Worst-Case Scenarios for Search:
+
+Algorithm	    Best Case	        Average Case	 Worst Case
+Linear Search	O(1) – first item	O(n/2) ≈ O(n)	 O(n) – last or not found
+Binary Search	O(1) – mid match	O(log n)	     O(log n) – keeps halving
+
+
+Time Complexity Comparison
+
+Algorithm	    Time Complexity	      Space Complexity	        Notes
+Linear Search	O(n)	              O(1)	                    No sorting needed
+Binary Search	O(log n)	          O(1)	                    Requires sorted array (O(n log n) sorting initially)
+
+
+Which Algorithm to Use?
+
+Use Case	Recommended Search
+Small or unsorted data	->Linear Search
+Large, sorted data	->Binary Search
+Search by multiple fields (name + category)	Custom filter or map-based search

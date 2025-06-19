@@ -1,0 +1,47 @@
+Understand Array Representation
+How arrays are stored in memory:
+
+Arrays are stored in contiguous memory blocks.
+
+Each element can be accessed directly using an index.
+
+For example, arr[0] gives you the first element instantly — this is constant time (O(1)) access.
+
+
+
+Advantages of arrays:
+
+Fast access using index.
+
+Simple and efficient for fixed-size collections.
+
+Easy to traverse in loops.
+
+
+ Time Complexity Analysis
+Add: O(1) — append at the end
+
+Search: O(n) — linear scan
+
+Traverse: O(n) — loop through all
+
+Delete: O(n) — find + shift elements
+
+
+
+Limitations of Arrays
+Fixed size (you must predefine capacity).
+
+Insertion/deletion in the middle is expensive (requires shifting).
+
+Searching is O(n) unless sorted or indexed.
+
+
+
+Use arrays when:
+
+You know the max number of elements in advance.
+
+You need fast index-based access.
+
+You don't do frequent inserts or deletes.

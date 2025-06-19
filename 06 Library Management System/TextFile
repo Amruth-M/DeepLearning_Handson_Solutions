@@ -1,0 +1,35 @@
+Understand Search Algorithms
+
+Linear Search:
+Checks each element one by one.
+Works on unsorted data.
+Time complexity: O(n)
+
+
+Binary Search:
+Divides the array in half each time.
+Works only on sorted data.
+Time complexity: O(log n)
+Analysis
+
+
+Linear Search:
+Best case: O(1) (match is first)
+Worst case: O(n) (last or not found)
+Works even if the data is unsorted
+
+
+Binary Search:
+Time complexity: O(log n)
+Requires the array to be sorted
+Much faster on large datasets
+
+->When to Use What
+
+Use linear search:
+On small or unsorted datasets
+When sorting isn’t feasible
+
+Use binary search:
+On large datasets that are already sorted
+When speed is important

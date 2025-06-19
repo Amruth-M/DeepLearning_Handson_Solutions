@@ -1,0 +1,68 @@
+Understand Sorting Algorithms
+Bubble Sort:
+
+Compares adjacent elements and swaps if out of order.
+
+Repeats until the list is sorted.
+
+Very simple but slow for large datasets.
+
+
+
+Insertion Sort:
+
+Builds sorted array one item at a time.
+
+Good for small or nearly sorted data.
+
+
+
+Quick Sort:
+
+Picks a pivot, partitions the array into smaller and larger elements.
+
+Recursively sorts subarrays.
+
+Fast and widely used.
+
+
+
+Merge Sort:
+
+Divides the array into halves, sorts them, and merges.
+
+Good performance and stable, but uses extra memory.
+
+-> Analysis
+Bubble Sort
+
+Time complexity: O(n²)
+
+Slow on large lists
+
+Easy to understand and implement
+
+
+
+Quick Sort
+
+Time complexity:
+
+Best and Average: O(n log n)
+
+Worst case: O(n²) (if pivot is poorly chosen)
+
+Fast and efficient for large datasets
+
+Used in real-world applications
+
+
+
+->Why Quick Sort is Preferred
+
+Much faster on average
+
+Efficient use of memory (in-place)
+
+Scales well with larger inputs
+

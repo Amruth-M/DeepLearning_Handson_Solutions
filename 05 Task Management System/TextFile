@@ -1,0 +1,33 @@
+Understand Linked Lists
+Singly Linked List:
+
+Each node has data and a reference to the next node.
+You can traverse in only one direction (forward).
+Good for dynamic size and frequent insertions/deletions.
+Doubly Linked List (just for knowledge):
+Each node has prev and next pointers.
+Allows traversal in both directions.
+Uses more memory but is more flexible.
+
+
+Analysis
+Time complexity:
+
+Add task: O(n) – traversal to end
+
+Search task: O(n)
+
+Delete task: O(n)
+
+Traverse/display: O(n)
+
+
+
+->Advantages of linked lists over arrays:
+
+Dynamic size (no fixed limit like arrays)
+
+Inserting/deleting in middle is easier (no shifting like in arrays)
+
+Efficient memory usage (no need to reserve space)
+

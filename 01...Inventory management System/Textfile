@@ -1,0 +1,28 @@
+01.Why are data structures and algorithms essential for large inventories?
+A large warehouse can have thousands of products.
+
+Efficient data structures ensure:
+
+Fast search (to find a product by ID/name)
+
+Quick updates (to change stock or price)
+
+Memory efficiency (to store all products compactly)
+
+Suitable Data Structures:
+
+Data Structure,Use Case,Reason:
+
+->ArrayList	Small data, ordered	Good for sequential access, but slow for lookup by ID
+->HashMap	Best for large inventory	Provides O(1) lookup, insert, and delete by key
+->TreeMap	Sorted product IDs	If you need products in order, but slightly slower (O(log n))
+->LinkedList	Not suitable here	Slower access by index or ID
+
+02.Time Complexities Using HashMap:
+
+Operation	                Method	              Time Complexity
+
+Add Product	                put(id, product)	       O(1)
+Update Product	            get(id) & modify	       O(1)
+Delete Product	            remove(id)	               O(1)
+Display All	                values()	               O(n)

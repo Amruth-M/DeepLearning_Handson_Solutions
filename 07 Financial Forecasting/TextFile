@@ -1,0 +1,34 @@
+nderstand Recursive Algorithms
+Recursion is a programming technique where a method calls itself to solve smaller parts of a problem.
+
+Key characteristics:
+
+Has a base case to stop recursion
+
+Solves the problem by breaking it into smaller subproblems
+
+Example Use Case:
+Compound interest, Fibonacci series, factorial, tree/graph traversal, etc.
+
+
+Setup – Recursive Forecast Method
+We’ll create a method to calculate the future value given:
+
+Present value
+
+Annual growth rate
+
+Number of years
+
+Formula:  futureValue = presentValue * (1 + growthRate)^years
+
+
+Analysis
+Time Complexity:
+
+The recursion runs once per year → O(n) where n = years
+
+Space Complexity:
+
+Uses O(n) stack space due to recursion
+
